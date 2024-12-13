@@ -1,0 +1,253 @@
+/* Base styles */
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e444f;
+
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56.0384px;
+  line-height: 67px;
+  text-align: center;
+  color: #ffffff;
+}
+.pulse_anim {
+  /* animation: pulsate 5.5s infinite; */
+}
+.circle_1 {
+  border-radius: 55%;
+  position: absolute;
+  left: 319px;
+  top: 24px;
+  width: 258.67px;
+  height: 258.67px;
+}
+.inside {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Центрирование */
+}
+.blue_opacity {
+  background: rgba(178, 214, 221, 0.45);
+}
+.blue {
+  background: #b2d6dd;
+}
+.circle_1_inside {
+  border-radius: 55%;
+  width: 55%;
+  height: 55%;
+  position: absolute;
+}
+.yellow_opacity {
+  background: rgba(244, 206, 131, 0.5);
+}
+
+.yellow {
+  background: #f4ce83;
+}
+
+.circle_2 {
+  width: 300px;
+  height: 302.04px;
+  border-radius: 55%;
+
+  position: relative; /* Changed to relative for proper positioning of rays */
+
+  left: 100px;
+  top: 368px;
+}
+
+.circle_2_inside {
+  border-radius: 55%;
+  width: 65%;
+  height: 65%;
+  position: absolute;
+}
+.star_1 {
+  position: absolute;
+  left: 468px;
+  top: 633.33px;
+}
+#lines {
+  position: absolute;
+  top: 200px;
+  left: 850px;
+}
+.line {
+  position: absolute;
+  background-color: white;
+  transform-origin: 50% 100%;
+}
+
+/* Стили для лучей */
+.ray {
+  position: absolute;
+  background: white;
+  width: 3px; /* Width of the ray */
+  height: 200px; /* Length of the ray */
+  transform-origin: bottom; /* Rotate from the bottom */
+}
+
+/* Clip path group */
+.circle_3_border {
+  position: absolute;
+  left: 582.67px;
+  top: 418.67px;
+}
+.circle_3 {
+  position: absolute;
+  width: 63%;
+  height: 63%;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 55%;
+}
+.circle_3_inside {
+  position: absolute;
+  width: 50%; /* Adjust size as needed */
+  height: 50%; /* Adjust size as needed */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle_4 {
+  width: 250px;
+  height: 250px;
+  border-radius: 55%;
+
+  position: absolute;
+  left: 942.67px;
+  top: 562.67px;
+}
+.circle_4_inside {
+  border-radius: 55%;
+  width: 65%;
+  height: 65%;
+  position: absolute;
+}
+
+.circle_5 {
+  width: 266.67px;
+  height: 268.73px;
+  border-radius: 55%;
+
+  position: absolute;
+  left: 1044px;
+  top: 160px;
+}
+.circle_5_inside {
+  border-radius: 55%;
+  width: 65%;
+  height: 65%;
+  position: absolute;
+}
+.circle_5_pre_inside {
+  border-radius: 55%;
+  width: 70%;
+  height: 70%;
+  position: absolute;
+}
+
+.circle_6 {
+  width: 401.33px;
+  height: 414.85px;
+  border-radius: 55%;
+
+  position: absolute;
+  left: 1408px;
+  top: 356px;
+}
+.circle_6_inside {
+  border-radius: 55%;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+}
+.bg_white {
+  background-color: white; /* Color of the dot */
+}
+.center_dot {
+  width: 58.67px; /* Width of the dot */
+  height: 58.67px; /* Height of the dot */
+  border-radius: 50%; /* Make it a circle */
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust to center the dot */
+}
+.surrounding_circle {
+  width: 58.67px;
+  height: 58.67px;
+  border-radius: 50%; /* Make it a circle */
+  background-color: rgba(255, 255, 255, 0.7); /* Adjust color as needed */
+  position: absolute;
+}
+.surrounding_circle_50 {
+  width: 58.67px;
+  height: 58.67px;
+  border-radius: 50%; /* Make it a circle */
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust color as needed */
+  position: absolute;
+}
+.surrounding_circle_20 {
+  width: 58.67px;
+  height: 58.67px;
+  border-radius: 50%; /* Make it a circle */
+  background-color: rgba(255, 255, 255, 0.2); /* Adjust color as needed */
+  position: absolute;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.text-white {
+  color: white;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: end;
+}
+.w-95p {
+  width: 95%;
+}
+.m-auto {
+  margin: auto;
+}
+.w-26p {
+  text-wrap: wrap;
+  width: 26%;
+}
+.w-fit {
+  width: fit-content;
+}
+.ml-15p {
+  margin-left: 15%;
+}
+.mr-5p {
+  margin-right: 5%;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* Увеличение на 10% */
+  }
+  100% {
+    transform: scale(1); /* Возвращение к исходному размеру */
+  }
+}
