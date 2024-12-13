@@ -1,8 +1,14 @@
 /* Base styles */
-@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Bitter"; /* Name of the font */
+  src: url("./assets/fonts/Bitter.ttf") format("truetype"); /* Path to the TTF file */
+  font-weight: normal; /* You can specify normal, bold, etc. */
+  font-style: normal; /* You can specify normal, italic, etc. */
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -61,7 +67,7 @@ body {
 }
 
 .pulse_anim {
-  /* animation: pulsate 5.5s infinite; */
+  animation: pulsate 5.5s infinite;
 }
 .circle_1 {
   left: 319px;
@@ -406,17 +412,19 @@ body {
   position: absolute;
 }
 .circle_11_border {
-  width: 242.67px;
-  height: 242.67px;
-  top: 1652px;
-  left: 1165.33px;
+  position: absolute;
+  width: 541px;
+  height: 538px;
+  top: 1504px;
+  left: 1016px;
 }
 .circle_11 {
   width: 242.67px;
   height: 242.67px;
 
-  left: 1165.33px;
-  top: 1652px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .circle_11_inside {
   position: absolute;
@@ -431,8 +439,9 @@ body {
   position: absolute;
   width: 537.09px;
   height: 534.52px;
-  top: 1505.99px;
-  left: 1017.83px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .big_star {
   position: absolute;
@@ -443,6 +452,7 @@ body {
 }
 
 .circle_12_border {
+  position: absolute;
   width: 394.35px;
   height: 392.46px;
   top: 1752.12px;
@@ -452,8 +462,9 @@ body {
   width: 316px;
   height: 318.15px;
 
-  left: 1485.33px;
-  top: 1790.66px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .circle_12_inside {
   position: absolute;
@@ -468,8 +479,9 @@ body {
   position: absolute;
   width: 394.35px;
   height: 392.46px;
-  top: 1752.12px;
-  left: 1445.34px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .star_of_circle {
   height: 382.67px;
