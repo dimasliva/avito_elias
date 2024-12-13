@@ -121,6 +121,34 @@ body {
   width: 106.67px;
   height: 106.67px;
 }
+.star_4 {
+  position: absolute;
+  left: 44px;
+  top: 1814.67px;
+  width: 106.67px;
+  height: 106.67px;
+}
+.star_5 {
+  position: absolute;
+  left: 216px;
+  top: 2009.33px;
+  width: 134.67px;
+  height: 134.67px;
+}
+.star_6 {
+  position: absolute;
+  left: 1276px;
+  top: 2804px;
+  width: 134.67px;
+  height: 134.67px;
+}
+.star_7 {
+  position: absolute;
+  left: 1597.33px;
+  top: 3268px;
+  width: 134.67px;
+  height: 134.67px;
+}
 #lines {
   position: absolute;
   top: 200px;
@@ -442,6 +470,110 @@ body {
   height: 392.46px;
   top: 1752.12px;
   left: 1445.34px;
+}
+.star_of_circle {
+  height: 382.67px;
+  position: absolute;
+  left: 449.51px;
+  top: 1817.52px;
+}
+
+.circle_13 {
+  width: 274.36px;
+  height: 276.23px;
+
+  left: 68px;
+  top: 2197.34px;
+}
+.circle_13_inside {
+  position: absolute;
+  width: 60%; /* Adjust size as needed */
+  height: 60%; /* Adjust size as needed */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container_lines_row {
+  position: absolute;
+  left: 524px;
+  top: 1920.33px;
+}
+.container_lines_row .lines_row {
+  height: 502px;
+  width: 1337px;
+}
+.container_lines_row .street {
+  font-size: 75px;
+  height: min-content;
+}
+.circle_14 {
+  width: 192px;
+  height: 192px;
+  left: 626.67px;
+  top: 2662.67px;
+}
+
+.circle_14_inside {
+  border-radius: 55%;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+}
+
+.circle_15 {
+  width: 249.33px;
+  height: 249.33px;
+  left: 1222px;
+  top: 2512px;
+}
+
+.circle_15_inside {
+  border-radius: 55%;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+}
+.circle_16 {
+  width: 274.36px;
+  height: 276.23px;
+  left: 925.33px;
+  top: 2810.67px;
+}
+.circle_16_inside {
+  border-radius: 55%;
+  width: 70%;
+  height: 70%;
+  position: absolute;
+}
+.circle_16 .circles_around {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  height: 360px;
+}
+.sphera {
+  position: absolute;
+  left: 1458.48px;
+  top: 2643.83px;
+  width: 510px;
+  height: 510px;
+}
+.sphere_circles {
+  width: 293px;
+  height: 292px;
+  position: absolute;
+  top: 3480px;
+  left: 1550px;
+}
+.path_lines {
+  position: absolute;
+  width: 2394px;
+  height: 1260px;
+  top: 2705.33px;
+  left: -239px;
 }
 .flex {
   display: flex;
