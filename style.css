@@ -54,7 +54,10 @@ body {
 .circle_19,
 .circle_20,
 .circle_21,
-.circle_22 {
+.circle_22,
+.circle_23,
+.circle_24,
+.circle_25 {
   border-radius: 55%;
   position: absolute;
 }
@@ -152,6 +155,20 @@ body {
   position: absolute;
   left: 1597.33px;
   top: 3268px;
+  width: 134.67px;
+  height: 134.67px;
+}
+.star_8 {
+  position: absolute;
+  left: 632px;
+  top: 3754.67px;
+  width: 134.67px;
+  height: 134.67px;
+}
+.star_9 {
+  position: absolute;
+  left: 1444px;
+  top: 4118.67px;
   width: 134.67px;
   height: 134.67px;
 }
@@ -586,6 +603,189 @@ body {
   height: 1260px;
   top: 2705.33px;
   left: -239px;
+}
+.circle_17 {
+  width: 486.03px;
+  height: 489.33px;
+  left: 33.33px;
+  top: 2994.66px;
+}
+.circle_17_inside {
+  border-radius: 55%;
+  width: 70%;
+  height: 70%;
+  position: absolute;
+}
+.circle_17_pre_inside {
+  border-radius: 55%;
+  width: 70%;
+  height: 70%;
+  position: absolute;
+}
+.circle_17 .circles_around {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  height: 360px;
+}
+.circle_17 .sphere_circles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 293px;
+  height: 292px;
+}
+.empty_white_dot {
+  position: absolute;
+  background-color: transparent;
+  border-radius: 55%;
+  border: 4px solid #fff;
+}
+.star_of_circle_2 {
+  width: 529px;
+  height: 529px;
+  position: absolute;
+  left: 866.33px;
+  top: 3403.67px;
+}
+.circle_18 {
+  width: 126.67px;
+  height: 126.67px;
+  left: 669.33px;
+  top: 3601.33px;
+}
+.circle_18_inside {
+  border-radius: 55%;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.circle_19 {
+  width: 89.28px;
+  height: 89.88px;
+  left: 1361.33px;
+  top: 3872px;
+}
+.circle_19_inside {
+  border-radius: 55%;
+  width: 60%;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.circle_20 {
+  width: 89.28px;
+  height: 89.88px;
+  left: 789.33px;
+  top: 4032px;
+}
+.circle_20_inside {
+  border-radius: 55%;
+  width: 60%;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.circle_21 {
+  width: 126.67px;
+  height: 126.67px;
+
+  left: 1732px;
+  top: 4088px;
+}
+.circle_21_inside {
+  position: absolute;
+  width: 50%; /* Adjust size as needed */
+  height: 50%; /* Adjust size as needed */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle_22 {
+  width: 176.85px;
+  height: 178.06px;
+
+  left: 1189.81px;
+  top: 4283.42px;
+}
+.circle_22_inside {
+  position: absolute;
+  width: 50%; /* Adjust size as needed */
+  height: 50%; /* Adjust size as needed */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle_23 {
+  width: 176.85px;
+  height: 178.06px;
+
+  left: 554.67px;
+  top: 4283.42px;
+}
+.circle_23_inside {
+  position: absolute;
+  width: 50%; /* Adjust size as needed */
+  height: 50%; /* Adjust size as needed */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sphere_many_circles {
+  position: absolute;
+  width: 690px;
+  height: 690px;
+  left: -65px;
+  top: 3568.61px;
+}
+.line_one {
+  width: 922.67px;
+  left: 732px;
+  top: 4006px;
+}
+.line_two {
+  width: 844px;
+  left: 985.33px;
+  top: 4039.33px;
+}
+.line_three {
+  width: 813.34px;
+  left: 909.33px;
+  top: 4075.33px;
+}
+.line_one,
+.line_two,
+.line_three {
+  position: absolute;
+  border: 3px solid #fff;
+}
+.task_text {
+  text-align: center;
+  position: absolute;
+  left: 706.04px;
+  top: 4227.33px;
+  font-size: 52px;
+}
+.bottom_text {
+  position: absolute;
+  left: 40px;
+  top: 4583.33px;
+  width: 95%;
 }
 .flex {
   display: flex;
