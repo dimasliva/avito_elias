@@ -15,13 +15,55 @@ body {
   line-height: 67px;
   text-align: center;
   color: #ffffff;
+  overflow-x: hidden;
 }
+.sun {
+  position: absolute;
+  top: 0;
+  left: 105%;
+  transform: translate(-50%, -50%); /* Центрирование */
+  width: 1275px;
+  z-index: 2;
+}
+
+.circle_1,
+.circle_2,
+.circle_3,
+.circle_4,
+.circle_5,
+.circle_6,
+.circle_7,
+.circle_8,
+.circle_9,
+.circle_10,
+.circle_11,
+.circle_11,
+.circle_12,
+.circle_13,
+.circle_14,
+.circle_15,
+.circle_16,
+.circle_17,
+.circle_18,
+.circle_19,
+.circle_20,
+.circle_21,
+.circle_22 {
+  border-radius: 55%;
+  position: absolute;
+}
+.lines_top_right {
+  position: absolute; /* Changed from absolute to fixed */
+  right: 0;
+  top: 0;
+  width: 1277px; /* Adjust this as needed */
+  z-index: 2;
+}
+
 .pulse_anim {
   /* animation: pulsate 5.5s infinite; */
 }
 .circle_1 {
-  border-radius: 55%;
-  position: absolute;
   left: 319px;
   top: 24px;
   width: 258.67px;
@@ -55,10 +97,6 @@ body {
 .circle_2 {
   width: 300px;
   height: 302.04px;
-  border-radius: 55%;
-
-  position: relative; /* Changed to relative for proper positioning of rays */
-
   left: 100px;
   top: 368px;
 }
@@ -73,6 +111,15 @@ body {
   position: absolute;
   left: 468px;
   top: 633.33px;
+  width: 134.67px;
+  height: 134.67px;
+}
+.star_3 {
+  position: absolute;
+  left: 626.67px;
+  top: 1450.67px;
+  width: 106.67px;
+  height: 106.67px;
 }
 #lines {
   position: absolute;
@@ -99,15 +146,22 @@ body {
   position: absolute;
   left: 582.67px;
   top: 418.67px;
+  width: 244.76px;
+  height: 244px;
+}
+.white_dot {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 55%;
 }
 .circle_3 {
-  position: absolute;
-  width: 63%;
-  height: 63%;
-  top: 48%;
+  width: 65%;
+  height: 65%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 55%;
 }
 .circle_3_inside {
   position: absolute;
@@ -122,9 +176,7 @@ body {
 .circle_4 {
   width: 250px;
   height: 250px;
-  border-radius: 55%;
 
-  position: absolute;
   left: 942.67px;
   top: 562.67px;
 }
@@ -138,9 +190,7 @@ body {
 .circle_5 {
   width: 266.67px;
   height: 268.73px;
-  border-radius: 55%;
 
-  position: absolute;
   left: 1044px;
   top: 160px;
 }
@@ -160,9 +210,6 @@ body {
 .circle_6 {
   width: 401.33px;
   height: 414.85px;
-  border-radius: 55%;
-
-  position: absolute;
   left: 1408px;
   top: 356px;
 }
@@ -204,6 +251,197 @@ body {
   border-radius: 50%; /* Make it a circle */
   background-color: rgba(255, 255, 255, 0.2); /* Adjust color as needed */
   position: absolute;
+}
+.brand {
+  position: absolute;
+  height: 353.33px;
+  top: 738.67px;
+  left: 50.67px;
+}
+.row_dots {
+  position: absolute;
+  left: 886.95px;
+  top: 1081.61px;
+  height: 76.21px;
+  z-index: 1;
+}
+.star_2 {
+  position: absolute;
+  left: 92px;
+  top: 1082.67px;
+  width: 134.67px;
+  height: 134.67px;
+}
+
+.circle_7 {
+  width: 316px;
+  height: 316px;
+  left: 1510.67px;
+  top: 1134.66px;
+}
+.circle_7_inside {
+  position: absolute;
+  width: 70%; /* Adjust size as needed */
+  height: 70%; /* Adjust size as needed */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle_8 {
+  width: 242.66px;
+  height: 242.66px;
+  left: 1043.67px;
+  top: 1154.67px;
+}
+
+.circle_8_inside {
+  position: absolute;
+  width: 60%; /* Adjust size as needed */
+  height: 60%; /* Adjust size as needed */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle_9 {
+  width: 308px;
+  height: 308px;
+  left: 92px;
+  top: 1453.33px;
+}
+
+.circle_9_inside {
+  position: absolute;
+  width: 60%; /* Adjust size as needed */
+  height: 60%; /* Adjust size as needed */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle_9 .oribts {
+  position: absolute;
+  top: 52%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  height: 610px;
+}
+.star_around {
+  position: absolute;
+  height: 296px;
+  left: -30%;
+  top: 5%;
+  transform: translate(-30% -5%);
+}
+
+.date_container {
+  position: absolute;
+  left: 246.67px;
+  top: 1105.33px;
+  width: 682.67px;
+  height: 361.33px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.date_container span {
+  font-size: 94px;
+  z-index: 2;
+  margin-right: 50px;
+}
+.date_container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.circle_10 {
+  width: 274.36px;
+  height: 276.23px;
+
+  left: 717.33px;
+  top: 1481.34px;
+}
+.circle_10_inside {
+  border-radius: 55%;
+  width: 65%;
+  height: 65%;
+  position: absolute;
+}
+.circle_10_pre_inside {
+  border-radius: 55%;
+  width: 70%;
+  height: 70%;
+  position: absolute;
+}
+.circle_11_border {
+  width: 242.67px;
+  height: 242.67px;
+  top: 1652px;
+  left: 1165.33px;
+}
+.circle_11 {
+  width: 242.67px;
+  height: 242.67px;
+
+  left: 1165.33px;
+  top: 1652px;
+}
+.circle_11_inside {
+  position: absolute;
+  width: 50%; /* Adjust size as needed */
+  height: 50%; /* Adjust size as needed */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle_11_border .circle_border {
+  position: absolute;
+  width: 537.09px;
+  height: 534.52px;
+  top: 1505.99px;
+  left: 1017.83px;
+}
+.big_star {
+  position: absolute;
+  width: 285px;
+  height: 285.05px;
+  top: 1408.84px;
+  left: 1603.53px;
+}
+
+.circle_12_border {
+  width: 394.35px;
+  height: 392.46px;
+  top: 1752.12px;
+  left: 1445.34px;
+}
+.circle_12 {
+  width: 316px;
+  height: 318.15px;
+
+  left: 1485.33px;
+  top: 1790.66px;
+}
+.circle_12_inside {
+  position: absolute;
+  width: 60%; /* Adjust size as needed */
+  height: 60%; /* Adjust size as needed */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle_12_border .circle_border {
+  position: absolute;
+  width: 394.35px;
+  height: 392.46px;
+  top: 1752.12px;
+  left: 1445.34px;
 }
 .flex {
   display: flex;

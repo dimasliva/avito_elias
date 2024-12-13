@@ -57,8 +57,9 @@ function surroundCircle(numCircles, radius, elem, addedCircle) {
 }
 
 circleLines(80, "circle_2", 200);
+circleLines(130, "sun", 1275);
 circleLines(80, "circle_4", 140);
 linesInDot();
-surroundCircle(8, 140, "center_dot", "surrounding_circle");
+surroundCircle(8, 135, "center_dot", "surrounding_circle");
 surroundCircle(8, 80, "circle_6_inside", "surrounding_circle_50");
 surroundCircle(8, 60, "circle_6", "surrounding_circle_20");
