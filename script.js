@@ -63,3 +63,6 @@ linesInDot();
 surroundCircle(8, 135, "center_dot", "surrounding_circle");
 surroundCircle(8, 80, "circle_6_inside", "surrounding_circle_50");
 surroundCircle(8, 60, "circle_6", "surrounding_circle_20");
+window.onload = function () {
+  window.scrollTo(0, 0);
+};
