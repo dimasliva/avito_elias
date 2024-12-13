@@ -372,12 +372,12 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.circle_9 .oribts {
+.circle_9 .orbits {
   position: absolute;
-  top: 51%;
-  left: 59%;
+  top: 50%;
+  left: 78.5%;
   transform: translate(-50%, -50%);
-  height: 670px;
+  height: 900px;
 }
 .star_around {
   position: absolute;
