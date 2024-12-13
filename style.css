@@ -374,10 +374,10 @@ body {
 }
 .circle_9 .oribts {
   position: absolute;
-  top: 52%;
-  left: 56%;
+  top: 51%;
+  left: 59%;
   transform: translate(-50%, -50%);
-  height: 610px;
+  height: 670px;
 }
 .star_around {
   position: absolute;
